@@ -1,0 +1,52 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#heading {
+    display:flex;
+    justify-content: center;
+    font-size: 150%;
+    font-weight: 800;
+}
+
+.cover {
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    background-color: black;
+    padding: 15px;
+    border-radius: 10%;
+}
+
+.display {
+    background-color: greenyellow;
+    width: 100%;
+    padding: 7px;
+    box-sizing: border-box;
+    text-align: right;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    background-color: darkgrey;
+    gap: 8px;
+    padding: 20px 5px 5px 5px;
+}
+
+button {
+    margin: 2px;
+}
+.numbers {
+    display: flex;
+    flex-direction: column;
+}
+
+.operators {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
