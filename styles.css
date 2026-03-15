@@ -49,7 +49,7 @@ button {
     border-radius: 20%;
     font-size: 20px;
 }
-.numbers {
+.digits {
     display: flex;
     flex-direction: column;
 }
@@ -58,6 +58,11 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.row-digit {
+    display: flex;
+    justify-content: center;
 }
 
 .math-op button {
