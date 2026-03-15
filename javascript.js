@@ -83,6 +83,7 @@ buttons.forEach(button => {
             if (op === "") {
                 if (resIsDisplayed){
                     num1 = "";
+                    resIsDisplayed = false;
                 }
                 num1 = updateNum(num1, digit);
                 updateDisplay(num1);
